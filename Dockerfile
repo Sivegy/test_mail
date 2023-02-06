@@ -38,4 +38,5 @@ COPY entrypoint.sh /
 
 WORKDIR	${JMETER_HOME}
 
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
