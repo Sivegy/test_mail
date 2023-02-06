@@ -1,0 +1,4350 @@
+2023-02-05 15:37:45,780 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-02-05 15:37:45,811 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.5/bin/user.properties
+2023-02-05 15:37:45,813 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.5/bin/system.properties
+2023-02-05 15:37:45,814 INFO o.a.j.JMeter: Setting System property: log4j2.formatMsgNoLookups=true
+2023-02-05 15:37:45,814 INFO o.a.j.JMeter: Setting System property: log_level.jmeter=DEBUG
+2023-02-05 15:37:45,815 INFO o.a.j.JMeter: Setting JMeter property: TARGET_HOST=www.mail.ru
+2023-02-05 15:37:45,815 INFO o.a.j.JMeter: Setting JMeter property: TARGET_PORT=80
+2023-02-05 15:37:45,816 INFO o.a.j.JMeter: Setting JMeter property: TARGET_PATH=/kaarten.html
+2023-02-05 15:37:45,816 INFO o.a.j.JMeter: Setting JMeter property: TARGET_KEYWORD=Kaartdiensten
+2023-02-05 15:37:45,829 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-02-05 15:37:45,830 INFO o.a.j.JMeter: Version 5.5
+2023-02-05 15:37:45,830 INFO o.a.j.JMeter: java.version=1.8.0_275
+2023-02-05 15:37:45,831 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2023-02-05 15:37:45,831 INFO o.a.j.JMeter: os.name=Linux
+2023-02-05 15:37:45,832 INFO o.a.j.JMeter: os.arch=amd64
+2023-02-05 15:37:45,833 INFO o.a.j.JMeter: os.version=5.15.79.1-microsoft-standard-WSL2
+2023-02-05 15:37:45,833 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-02-05 15:37:45,834 INFO o.a.j.JMeter: java.awt.headless=true
+2023-02-05 15:37:45,834 INFO o.a.j.JMeter: Max memory     =1342177280
+2023-02-05 15:37:45,835 INFO o.a.j.JMeter: Available Processors =12
+2023-02-05 15:37:45,844 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-02-05 15:37:45,846 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-02-05 15:37:45,846 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.5
+2023-02-05 15:37:45,847 INFO o.a.j.JMeter: user.dir  =/mnt/wsl/docker-desktop-bind-mounts/Ubuntu-22.04/bec7efedff7e03343decde342ca9343e8492b137e7fb1311ecf0d6ca2b7bcb0f
+2023-02-05 15:37:45,849 INFO o.a.j.JMeter: PWD       =/mnt/wsl/docker-desktop-bind-mounts/Ubuntu-22.04/bec7efedff7e03343decde342ca9343e8492b137e7fb1311ecf0d6ca2b7bcb0f
+2023-02-05 15:37:45,849 INFO o.a.j.JMeter: IP: 172.17.0.3 Name: a8028a4735fb FullName: a8028a4735fb
+2023-02-05 15:37:45,887 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/mnt/wsl/docker-desktop-bind-mounts/Ubuntu-22.04/bec7efedff7e03343decde342ca9343e8492b137e7fb1311ecf0d6ca2b7bcb0f/tests/trivial/report'
+2023-02-05 15:37:45,896 INFO o.a.j.s.FileServer: Default base='/mnt/wsl/docker-desktop-bind-mounts/Ubuntu-22.04/bec7efedff7e03343decde342ca9343e8492b137e7fb1311ecf0d6ca2b7bcb0f'
+2023-02-05 15:37:45,898 INFO o.a.j.s.FileServer: Set new base='/mnt/wsl/docker-desktop-bind-mounts/Ubuntu-22.04/bec7efedff7e03343decde342ca9343e8492b137e7fb1311ecf0d6ca2b7bcb0f/tests/trivial'
+2023-02-05 15:37:46,093 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-02-05 15:37:46,119 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-02-05 15:37:46,127 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-02-05 15:37:46,137 INFO o.a.j.s.SaveService: Loading file: tests/trivial/test-plan_1.jmx
+2023-02-05 15:37:46,203 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2023-02-05 15:37:46,223 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-05 15:37:46,224 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-05 15:37:46,224 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-05 15:37:46,225 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-05 15:37:46,225 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-02-05 15:37:46,226 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-02-05 15:37:46,682 INFO o.a.j.JMeter: Creating summariser <summary>
+2023-02-05 15:37:46,688 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2023-02-05 15:37:46,689 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: tests/trivial/test-plan.jtl
+2023-02-05 15:37:46,690 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/apache-jmeter-5.5/bin/reportgenerator.properties
+2023-02-05 15:37:46,691 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2023-02-05 15:37:46,699 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2023-02-05 15:37:46,703 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2023-02-05 15:37:46,704 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2023-02-05 15:37:46,704 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2023-02-05 15:37:46,705 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2023-02-05 15:37:46,705 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2023-02-05 15:37:46,706 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2023-02-05 15:37:46,706 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2023-02-05 15:37:46,707 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2023-02-05 15:37:46,715 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2023-02-05 15:37:46,716 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-02-05 15:37:46,716 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2023-02-05 15:37:46,717 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2023-02-05 15:37:46,717 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2023-02-05 15:37:46,718 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2023-02-05 15:37:46,718 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-02-05 15:37:46,719 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-02-05 15:37:46,720 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-02-05 15:37:46,720 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-02-05 15:37:46,723 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2023-02-05 15:37:46,723 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2023-02-05 15:37:46,724 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2023-02-05 15:37:46,725 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2023-02-05 15:37:46,726 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2023-02-05 15:37:46,726 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2023-02-05 15:37:46,738 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-02-05 15:37:46,739 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-05 15:37:46,739 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-05 15:37:46,746 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-02-05 15:37:46,747 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-02-05 15:37:47,094 INFO o.a.j.JMeter: Running test (1675600667093)
+2023-02-05 15:37:47,151 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main_Page
+2023-02-05 15:37:47,152 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Main_Page.
+2023-02-05 15:37:47,153 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-02-05 15:37:47,153 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=2 delayedStart=false
+2023-02-05 15:37:47,165 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-02-05 15:37:47,166 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-02-05 15:37:47,167 INFO o.a.j.t.JMeterThread: Thread started: Main_Page 1-1
+2023-02-05 15:37:47,188 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = a8028a4735fb
+2023-02-05 15:37:47,196 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-02-05 15:37:47,199 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-02-05 15:37:47,201 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-02-05 15:37:47,202 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-02-05 15:37:47,203 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-02-05 15:37:47,362 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-02-05 15:37:47,373 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-02-05 15:37:47,374 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-02-05 15:37:47,474 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-02-05 15:37:47,481 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-02-05 15:37:47,482 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-02-05 15:37:47,560 INFO o.a.j.t.JMeterThread: Thread started: Main_Page 1-2
+2023-02-05 15:37:47,963 INFO o.a.j.t.JMeterThread: Thread started: Main_Page 1-3
+2023-02-05 15:37:48,264 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-05 15:37:48,264 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-05 15:37:48,362 INFO o.a.j.t.JMeterThread: Thread started: Main_Page 1-4
+2023-02-05 15:37:48,760 INFO o.a.j.t.JMeterThread: Thread started: Main_Page 1-5
+2023-02-05 15:37:49,063 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2023-02-05 15:37:49,063 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2023-02-05 15:37:49,063 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2023-02-05 15:37:49,476 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:84330] Deprecated property name '*zoom'
+2023-02-05 15:37:49,477 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:84338] Deprecated property name '*padding'
+2023-02-05 15:37:49,478 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:84349] Deprecated property name '*overflow'
+2023-02-05 15:37:49,478 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:84366] Deprecated property name '*vertical-align'
+2023-02-05 15:37:49,479 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:84588] Deprecated property name '*width'
+2023-02-05 15:37:49,480 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:84600] Deprecated property name '*height'
+2023-02-05 15:37:49,481 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:84613] Deprecated property name '*top'
+2023-02-05 15:37:49,482 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:84624] Deprecated property name '*left'
+2023-02-05 15:37:49,483 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:85368] Deprecated property name '*vertical-align'
+2023-02-05 15:37:49,484 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:85391] Deprecated property name '*zoom'
+2023-02-05 15:37:49,485 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:85399] Deprecated property name '*background-image'
+2023-02-05 15:37:49,485 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:85422] Deprecated property name '*background'
+2023-02-05 15:37:49,486 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:85584] Deprecated property name '*background-image'
+2023-02-05 15:37:49,487 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:86341] Deprecated property name '*background'
+2023-02-05 15:37:49,488 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:86411] Deprecated property name '*background-image'
+2023-02-05 15:37:49,489 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:86917] Deprecated property name '*background-image'
+2023-02-05 15:37:49,490 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:87471] Deprecated property name '*background-image'
+2023-02-05 15:37:49,491 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:87871] Deprecated property name '*background-image'
+2023-02-05 15:37:49,492 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:88347] Deprecated property name '*background-image'
+2023-02-05 15:37:49,493 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:88880] Deprecated property name '*background-image'
+2023-02-05 15:37:49,494 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:89606] Deprecated property name '*background-image'
+2023-02-05 15:37:49,496 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:91706] Deprecated property name '*margin-bottom'
+2023-02-05 15:37:49,497 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:91733] Deprecated property name '*vertical-align'
+2023-02-05 15:37:49,498 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:92465] Deprecated property name '*display'
+2023-02-05 15:37:49,499 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:92481] Deprecated property name '*zoom'
+2023-02-05 15:37:49,501 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:93409] Deprecated property name '*background-image'
+2023-02-05 15:37:49,502 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:94807] Deprecated property name '*display'
+2023-02-05 15:37:52,338 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:1] starting at token 'ï»¿' until [1:172] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "@font-face" <FONTFACE_SYM>
+    at line 1, column 4.
+
+Was expecting one of:
+
+    ","
+    "."
+    ":"
+    ":not("
+    "["
+    "{"
+    <HASH>
+    <S>
+)
+2023-02-05 15:37:52,786 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:204754] Deprecated property name '*display'
+2023-02-05 15:37:52,811 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:241647] Deprecated property name '*display'
+2023-02-05 15:37:52,820 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:252715] Deprecated property name '*padding'
+2023-02-05 15:37:52,821 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:252784] Deprecated property name '*display'
+2023-02-05 15:37:52,822 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:253409] Deprecated property name '*border'
+2023-02-05 15:37:52,825 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:255749] Deprecated property name '*display'
+2023-02-05 15:37:52,827 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:256779] Deprecated property name '*padding'
+2023-02-05 15:37:52,828 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:256995] Deprecated property name '*border'
+2023-02-05 15:37:52,829 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:257782] Deprecated property name '*padding'
+2023-02-05 15:37:52,830 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:258070] Deprecated property name '*padding'
+2023-02-05 15:37:52,831 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:258310] Deprecated property name '*border'
+2023-02-05 15:37:52,833 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:259388] Deprecated property name '*padding'
+2023-02-05 15:37:54,271 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [23:5] starting at token 'stManager' until [23:62] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "." "."
+    at line 23, column 14.
+
+Was expecting one of:
+
+    ":"
+    <S>
+)
+2023-02-05 15:37:54,272 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [23:63] starting at token '}' until [23:73] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "catch(" <FUNCTION>
+    at line 23, column 64.
+
+Was expecting one of:
+
+    "*"
+    "-->"
+    "."
+    ":"
+    ":not("
+    ";"
+    "<!--"
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <EOF>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <UNKNOWN>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:00,774 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:488399] starting at token ':' until [1:488424] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 1, column 488400.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-02-05 15:38:00,775 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:488441] starting at token ':' until [1:488458] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 1, column 488442.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2023-02-05 15:38:02,427 INFO o.a.j.r.Summariser: summary +     16 in 00:00:15 =    1.0/s Avg:  3843 Min:  1803 Max:  5065 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2023-02-05 15:38:03,039 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,040 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,040 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,041 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,041 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,042 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,043 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,043 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,044 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,044 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,046 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:15605] starting at token '{' until [1:15660] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 15606.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,047 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,048 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:15693] starting at token '{' until [1:15748] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 15694.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,049 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,050 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:15797] starting at token '{' until [1:15871] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 15798.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,051 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,051 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:15907] starting at token '{' until [1:15981] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 15908.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,052 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,053 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:16049] starting at token '{' until [1:16136] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 16050.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,053 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,054 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:16201] starting at token '{' until [1:16288] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 16202.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,054 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,055 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,055 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:16460] starting at token '{' until [1:16515] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 16461.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,056 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,057 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:16548] starting at token '{' until [1:16603] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 16549.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,058 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,059 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:16652] starting at token '{' until [1:16726] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 16653.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,059 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,060 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:16762] starting at token '{' until [1:16836] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 16763.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,061 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,062 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:16904] starting at token '{' until [1:16991] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 16905.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,062 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,063 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:17056] starting at token '{' until [1:17143] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 17057.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,064 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,065 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,066 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:17315] starting at token '{' until [1:17370] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 17316.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,067 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,068 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:17403] starting at token '{' until [1:17458] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 17404.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,068 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,069 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:17507] starting at token '{' until [1:17580] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 17508.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,070 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,071 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:17616] starting at token '{' until [1:17689] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 17617.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,072 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,073 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:17757] starting at token '{' until [1:17844] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 17758.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,073 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,074 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:17909] starting at token '{' until [1:17996] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 17910.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,074 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,075 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,075 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:18210] starting at token '{' until [1:18265] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 18211.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,076 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,077 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:18327] starting at token '{' until [1:18382] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 18328.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,077 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,078 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:18450] starting at token '{' until [1:18537] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 18451.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,079 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,080 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:18602] starting at token '{' until [1:18689] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 18603.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,081 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,082 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,083 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:18861] starting at token '{' until [1:18916] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 18862.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,084 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,085 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:18949] starting at token '{' until [1:19004] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 18950.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,086 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,087 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:19053] starting at token '{' until [1:19126] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 19054.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,088 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,089 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:19162] starting at token '{' until [1:19235] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 19163.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,090 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,091 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:19303] starting at token '{' until [1:19390] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 19304.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,092 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,093 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:19455] starting at token '{' until [1:19542] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 19456.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,093 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,094 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,095 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:19774] starting at token '{' until [1:19829] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 19775.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,097 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,098 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:19920] starting at token '{' until [1:19975] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 19921.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,099 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,100 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:20024] starting at token '{' until [1:20130] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 20025.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,101 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,102 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:20166] starting at token '{' until [1:20272] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 20167.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,103 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,105 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,106 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:20504] starting at token '{' until [1:20559] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 20505.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,106 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,107 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:20650] starting at token '{' until [1:20705] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 20651.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,109 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,110 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:20754] starting at token '{' until [1:20860] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 20755.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,111 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,112 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:20896] starting at token '{' until [1:21002] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 20897.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,113 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,114 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,115 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:21216] starting at token '{' until [1:21269] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 21217.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,116 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,116 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:21363] starting at token '{' until [1:21416] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 21364.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,117 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,118 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,119 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,120 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:21702] starting at token '{' until [1:21780] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 21703.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,121 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,122 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:21813] starting at token '{' until [1:21891] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 21814.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,123 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,124 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:21940] starting at token '{' until [1:22037] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 21941.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,125 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,126 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:22073] starting at token '{' until [1:22170] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 22074.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,127 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,128 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:22238] starting at token '{' until [1:22348] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 22239.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,130 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,131 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:22413] starting at token '{' until [1:22523] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 22414.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,132 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,133 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,135 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:22781] starting at token '{' until [1:22854] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 22782.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,136 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,137 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:22974] starting at token '{' until [1:23047] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 22975.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,138 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,140 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,141 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:23310] starting at token '{' until [1:23388] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 23311.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,142 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,143 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:23508] starting at token '{' until [1:23586] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 23509.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,144 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,145 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,146 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:23848] starting at token '{' until [1:23925] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 23849.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,147 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,148 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:24045] starting at token '{' until [1:24122] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 24046.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,149 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,150 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,151 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:24319] starting at token '{' until [1:24392] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 24320.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,153 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,154 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:24454] starting at token '{' until [1:24527] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 24455.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,154 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,155 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:24595] starting at token '{' until [1:24700] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 24596.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,156 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,157 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:24765] starting at token '{' until [1:24870] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 24766.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,157 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,158 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,159 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:25026] starting at token '{' until [1:25100] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 25027.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,159 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,160 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:25133] starting at token '{' until [1:25207] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 25134.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,161 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,162 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:25317] starting at token '{' until [1:25423] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 25318.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,163 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,164 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:25517] starting at token '{' until [1:25623] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 25518.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,165 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,166 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,167 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:25889] starting at token '{' until [1:25954] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 25890.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,168 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,169 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:26074] starting at token '{' until [1:26139] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 26075.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,170 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,171 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,172 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:26400] starting at token '{' until [1:26476] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 26401.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,173 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,174 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:26596] starting at token '{' until [1:26672] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 26597.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,175 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,176 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,177 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:26836] starting at token '{' until [1:26902] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 26837.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,178 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,179 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:26935] starting at token '{' until [1:27001] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 26936.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,180 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,181 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:27050] starting at token '{' until [1:27147] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 27051.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,182 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,183 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:27183] starting at token '{' until [1:27280] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 27184.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,183 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,184 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:27348] starting at token '{' until [1:27429] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 27349.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,185 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,187 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:27494] starting at token '{' until [1:27575] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 27495.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,187 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,189 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,190 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:27729] starting at token '{' until [1:27801] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 27730.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,190 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,191 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:27834] starting at token '{' until [1:27906] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 27835.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,191 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,192 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:28016] starting at token '{' until [1:28103] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 28017.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,193 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,194 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:28197] starting at token '{' until [1:28284] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 28198.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,196 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,198 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,199 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:28587] starting at token '{' until [1:28645] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 28588.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,200 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,200 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:28765] starting at token '{' until [1:28823] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 28766.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,201 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,202 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,204 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:29087] starting at token '{' until [1:29166] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 29088.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,204 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,206 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:29286] starting at token '{' until [1:29365] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 29287.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,227 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,229 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,230 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,231 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,231 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,233 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,234 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,235 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,236 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,237 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,238 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,239 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,240 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,241 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,242 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,243 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,244 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,245 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,246 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,247 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,248 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,249 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,251 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,252 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,253 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,254 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,255 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,256 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,257 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,258 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,259 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,261 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,262 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,263 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,263 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,264 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,265 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,266 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,267 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,267 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,268 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,268 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,269 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,269 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,270 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,270 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,271 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,272 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,272 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,273 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,273 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,274 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,275 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,275 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,276 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,277 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,277 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,278 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,279 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,279 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,281 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,281 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,282 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,282 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,283 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,283 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,284 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,284 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:50122] starting at token '}' until [1:58859] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 50123.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,295 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,296 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,296 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,297 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,298 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,298 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,299 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,299 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,300 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,300 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,300 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,301 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,301 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,302 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,303 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,303 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,303 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,304 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,304 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,305 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,305 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,306 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,306 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,306 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,307 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,307 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,308 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,308 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,309 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,309 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,309 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,310 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,310 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,311 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,311 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,311 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,312 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,313 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,314 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,314 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,315 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,315 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,316 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,316 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,316 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,317 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,317 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,318 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,318 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,318 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,319 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,319 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,320 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,320 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,320 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,321 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,321 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,322 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,322 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,323 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,323 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,324 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,324 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,325 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,325 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,325 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,326 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,326 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:73508] starting at token '}' until [1:82245] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 73509.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,337 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,338 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,338 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,339 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,339 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,340 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,340 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,341 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,341 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,342 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,343 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,343 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,344 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,344 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,345 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,345 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,346 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,347 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,348 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,348 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,349 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,349 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,350 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,350 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,351 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,351 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,351 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,352 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,352 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,353 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,353 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,354 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,355 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,355 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,355 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,356 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,356 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,357 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,357 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,358 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,358 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,359 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,360 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,360 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,361 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,361 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,363 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,364 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,365 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,365 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,366 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,366 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,367 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,367 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,368 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,368 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,369 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,369 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,370 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,370 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,371 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,372 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,372 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,373 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,373 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,374 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,375 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,375 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,376 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,377 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,377 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,378 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,378 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,379 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,380 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,380 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,381 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,381 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,382 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,382 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,383 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,383 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,384 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,385 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,385 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,386 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,386 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,387 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,387 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,388 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,388 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,388 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,389 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,389 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,390 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,391 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,391 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,392 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,392 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,393 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,393 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,394 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,394 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,395 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,396 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,396 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:96890] starting at token '}' until [1:111663] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 96891.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,407 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,408 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,408 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,409 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,409 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,410 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,410 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,411 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,411 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,412 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,413 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,413 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,414 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,415 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,415 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,416 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,416 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,417 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,417 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,418 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,418 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,419 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,419 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,420 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,421 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,421 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,422 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,422 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,423 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,423 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,424 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,425 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,425 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,426 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,426 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,427 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,427 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,428 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,428 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,429 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,430 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,431 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,432 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,432 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,433 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,433 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,434 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,434 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,435 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,435 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,436 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,436 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,437 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,438 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,438 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,439 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,439 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,440 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,440 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,441 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,441 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,442 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,442 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,443 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,444 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,444 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,445 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,446 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,447 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,448 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,448 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,449 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,450 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,451 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,452 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,452 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,453 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,454 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,454 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,455 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,456 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,456 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,457 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,458 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,458 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,459 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,459 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,460 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,460 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,461 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,461 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,462 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,463 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,463 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,464 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,464 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,465 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,465 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,466 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,466 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,467 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,467 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,468 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,468 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,469 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Found illegal character: % (0x0025)
+2023-02-05 15:38:03,470 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:126319] starting at token '}' until [1:141092] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "%" <UNKNOWN>
+    at line 1, column 126320.
+
+Was expecting one of:
+
+    "*"
+    "."
+    ":"
+    ":not("
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@footnote"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "["
+    "|"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <HASH>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <PERCENTAGE>
+    <S>
+    <VIEWPORT_SYM>
+)
+2023-02-05 15:38:03,595 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1:305063] Unexpected rule '@charset': charset rule in the middle of the file is not allowed!
+2023-02-05 15:38:06,536 INFO o.a.j.t.JMeterThread: Thread is done: Main_Page 1-5
+2023-02-05 15:38:06,536 INFO o.a.j.t.JMeterThread: Thread is done: Main_Page 1-2
+2023-02-05 15:38:06,536 INFO o.a.j.t.JMeterThread: Thread is done: Main_Page 1-4
+2023-02-05 15:38:06,537 INFO o.a.j.t.JMeterThread: Thread finished: Main_Page 1-2
+2023-02-05 15:38:06,537 INFO o.a.j.t.JMeterThread: Thread finished: Main_Page 1-4
+2023-02-05 15:38:06,537 INFO o.a.j.t.JMeterThread: Thread finished: Main_Page 1-5
+2023-02-05 15:38:06,541 INFO o.a.j.t.JMeterThread: Thread is done: Main_Page 1-1
+2023-02-05 15:38:06,542 INFO o.a.j.t.JMeterThread: Thread finished: Main_Page 1-1
+2023-02-05 15:38:06,563 INFO o.a.j.t.JMeterThread: Thread is done: Main_Page 1-3
+2023-02-05 15:38:06,564 INFO o.a.j.t.JMeterThread: Thread finished: Main_Page 1-3
+2023-02-05 15:38:06,575 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-02-05 15:38:06,579 INFO o.a.j.r.Summariser: summary +     19 in 00:00:04 =    4.6/s Avg:  1643 Min:   405 Max:  2932 Err:     0 (0.00%) Active: 0 Started: 5 Finished: 5
+2023-02-05 15:38:06,580 INFO o.a.j.r.Summariser: summary =     35 in 00:00:19 =    1.8/s Avg:  2649 Min:   405 Max:  5065 Err:     0 (0.00%)
+2023-02-05 15:38:06,581 INFO o.a.j.JMeter: Generating Dashboard
+2023-02-05 15:38:06,582 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2023-02-05 15:38:06,658 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2023-02-05 15:38:06,885 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2023-02-05 15:38:06,886 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2023-02-05 15:38:06,891 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2023-02-05 15:38:06,892 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2023-02-05 15:38:06,907 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2023-02-05 15:38:06,915 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2023-02-05 15:38:06,916 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2023-02-05 15:38:06,916 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2023-02-05 15:38:06,999 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2023-02-05 15:38:07,000 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2023-02-05 15:38:07,001 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2023-02-05 15:38:07,002 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2023-02-05 15:38:07,084 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2023-02-05 15:38:07,085 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 11095 samples
+2023-02-05 15:38:07,085 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2023-02-05 15:38:07,086 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2023-02-05 15:38:07,086 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2023-02-05 15:38:07,105 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2023-02-05 15:38:07,109 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2023-02-05 15:38:07,112 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2023-02-05 15:38:07,134 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2023-02-05 15:38:07,135 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2023-02-05 15:38:07,137 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2023-02-05 15:38:07,139 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2023-02-05 15:38:07,142 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 23775 samples
+2023-02-05 15:38:07,143 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 4755 samples
+2023-02-05 15:38:07,143 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1585 samples
+2023-02-05 15:38:07,146 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1585 samples produced in 440ms on channel 0
+2023-02-05 15:38:07,146 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2023-02-05 15:38:07,293 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2023-02-05 15:38:07,294 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2023-02-05 15:38:07,295 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2023-02-05 15:38:07,298 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2023-02-05 15:38:07,307 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /mnt/wsl/docker-desktop-bind-mounts/Ubuntu-22.04/bec7efedff7e03343decde342ca9343e8492b137e7fb1311ecf0d6ca2b7bcb0f/tests/trivial/report/statistics.json
+2023-02-05 15:38:07,380 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2023-02-05 15:38:07,395 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /mnt/wsl/docker-desktop-bind-mounts/Ubuntu-22.04/bec7efedff7e03343decde342ca9343e8492b137e7fb1311ecf0d6ca2b7bcb0f/tests/trivial/report
+2023-02-05 15:38:08,913 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /mnt/wsl/docker-desktop-bind-mounts/Ubuntu-22.04/bec7efedff7e03343decde342ca9343e8492b137e7fb1311ecf0d6ca2b7bcb0f/tests/trivial/report, creating folder structure
+2023-02-05 15:38:08,943 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/apache-jmeter-5.5/bin/report-template' to '/mnt/wsl/docker-desktop-bind-mounts/Ubuntu-22.04/bec7efedff7e03343decde342ca9343e8492b137e7fb1311ecf0d6ca2b7bcb0f/tests/trivial/report', got message: /mnt/wsl/docker-desktop-bind-mounts/Ubuntu-22.04/bec7efedff7e03343decde342ca9343e8492b137e7fb1311ecf0d6ca2b7bcb0f/tests/trivial/report, found non empty folder with following content [/mnt/wsl/docker-desktop-bind-mounts/Ubuntu-22.04/bec7efedff7e03343decde342ca9343e8492b137e7fb1311ecf0d6ca2b7bcb0f/tests/trivial/report/statistics.json], will be ignored
+2023-02-05 15:38:11,161 INFO o.a.j.JMeter: Dashboard generated
